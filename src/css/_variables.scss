@@ -43,7 +43,7 @@ $dark-gray: #8a8a8a !default;
 $global-font-color: #34495e !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 16px !default;
+$global-font-size: 18px !default;
 
 // Global width of '<body>'.
 $global-body-width: 800px !default;
@@ -67,9 +67,9 @@ $global-background: $white !default;
 $global-headings: (
   h1: 26px,
   h2: 24px,
-  h3: 20px,
-  h4: 16px,
-  h5: 14px,
+  h3: 21px,
+  h4: 18px,
+  h5: 16px,
   h6: 14px
 ) !default;
 
@@ -123,7 +123,7 @@ $post-border: 1px solid $light-gray !default;
 $post-title-font-size: 27px !default;
 
 // Font weight of post title.
-$post-title-font-weight: 400 !default;
+$post-title-font-weight: 600 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 15px !default;
