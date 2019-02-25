@@ -13,7 +13,8 @@
 - 增加[繁體中文的字串資源](https://github.com/huanlin/hugo-theme-even-more/blob/master/i18n/zh-TW.yaml)。
 - 解決網站的標籤（tags）名稱無法顯示 ".NET" 與 "C#" 的問題。詳見：[taxonomy.html](https://github.com/huanlin/hugo-theme-even-more/blob/master/layouts/_default/taxonomy.html#L9-L15)、[terms.html](https://github.com/huanlin/hugo-theme-even-more/blob/master/layouts/_default/terms.html#L35-L44)、[post/single.html](https://github.com/huanlin/hugo-theme-even-more/blob/master/layouts/post/single.html#L52-L61)。
 - 加入 Facebook SDK 的指令。如果你需要在網站上放置臉書的粉絲專頁外掛或讚按鈕、分享按鈕，只要把臉書產生的[社交外掛](https://developers.facebook.com/docs/plugins)指令碼貼到網頁適當的地方就行了。
-- Config.toml 檔案增加參數 `showFacebookLikeCount`，若此參數值為 true，便會在每一篇文章下方顯示那篇文章的按讚數量。
+- Config.toml 增加參數 `showFacebookLikeCount`，若此參數值為 true，便會在每一篇文章下方顯示那篇文章的按讚數量。
+- Config.toml 增加參數 `bing_verification`，以供設定 Bing 搜尋引擎的驗證碼。
 - 修改預設的程式碼語法顏色。Even 主題提供了四種配色風格，我修改了預設風格，讓它在顯示程式碼的時候，更接近我喜歡的配色。下圖可以大概看出兩者的差異。
 
 ![even 和 even-more 的程式碼顏色比較](images/even-and-more-code-color.png)
